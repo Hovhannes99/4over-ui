@@ -1,0 +1,53 @@
+.Graphic {
+  width: 152px;
+  height: 25px;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-top: 2%;
+  margin-left: 2%;
+  color: black;
+}
+
+.GraphicsTitles {
+  width: 95%;
+  display: inline-block;
+  align-content: center;
+  justify-content: center;
+  float: left;
+  margin-top: 2%;
+  margin-left: 2%;
+  padding-top: 5px;
+  background-color: #FAFBFC;
+}
+
+.forms {
+  width: 48%;
+  border: 1px;
+  border-color: #C8C8C8;
+  padding-top: 5px;
+  float: left;
+  margin-right: 1%;
+  margin-bottom: 1%;
+}
+
+.results {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.selectResults {
+  width: 90px;
+  height: 30px;
+  color: #9F9F9F;
+  border-color: #9F9F9F;
+}
+
+.graphic {
+  width: 95%;
+  padding-bottom: 15%;
+  background-color: white;
+}
+
+/*# sourceMappingURL=index.css.map */
