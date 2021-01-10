@@ -1,20 +1,22 @@
 .body {
   width: 100%;
-  height: 100vh;
+  height: 100vmin;
   background-color: #FAFBFC;
   display: flex;
 }
 
 .categories {
+  margin-top: 5%;
   display: grid;
   justify-items: center;
   align-content: space-between;
   width: 245px;
-  height: 100vh;
+  height: 100%;
   background-color: white;
 }
 
 .list {
+  margin-top: 5%;
   width: 100%;
   height: 100%;
   overflow: visible;
@@ -34,8 +36,29 @@
   justify-items: center;
   width: 100%;
   height: 45px;
-  background-color: white;
   margin-top: 20px;
+  background-color: white;
+}
+
+.redLine {
+  position: relative;
+  bottom: 8px;
+  left: 115%;
+  transform: rotate(90deg);
+  width: 35%;
+  height: 3px;
+  background: none;
+  box-sizing: border-box;
+}
+
+.redLine4 {
+  position: relative;
+  bottom: 8px;
+  left: 108%;
+  transform: rotate(90deg);
+  width: 35%;
+  height: 3px;
+  background: none;
 }
 
 .lineNone {
@@ -46,16 +69,23 @@
   display: flex;
   align-items: center;
   justify-items: center;
-  text-indent: 20px;
+  text-indent: 28px;
+  margin-right: 20px;
   color: #C8C8C8;
+}
+
+.changeColor {
+  display: flex;
+  align-items: center;
+  justify-items: center;
 }
 
 .textLinks2 {
   display: flex;
   align-items: center;
   justify-items: center;
-  text-indent: 20px;
-  margin-left: 25px;
+  text-indent: 28px;
+  margin: 0 auto;
   color: #C8C8C8;
 }
 
@@ -63,8 +93,17 @@
   display: flex;
   align-items: center;
   justify-items: center;
-  text-indent: 24px;
-  margin-right: 10px;
+  text-indent: 28px;
+  margin-right: 30px;
+  color: #C8C8C8;
+}
+
+.textLinks4 {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin-left: 10px;
+  text-indent: 28px;
   color: #C8C8C8;
 }
 
@@ -78,14 +117,71 @@
   background-color: #F6003A;
   border-radius: 5px;
   border: 0;
-  border-style: solid;
+  border-style: none;
+  box-sizing: border-box;
 }
 
-.selected .changeColor {
+.addCampaing:hover {
+  cursor: pointer;
+  background-color: #DA022C;
+}
+
+.selected .redLine {
+  position: relative;
+  bottom: 8px;
+  left: 115%;
+  transform: rotate(90deg);
+  width: 35%;
+  height: 3px;
+  background-color: red;
+  box-sizing: border-box;
+}
+.selected .redLine4 {
+  position: relative;
+  bottom: 8px;
+  left: 108%;
+  transform: rotate(90deg);
+  width: 35%;
+  height: 3px;
+  background-color: red;
+}
+.selected .textLinks1 {
   display: flex;
   align-items: center;
   justify-items: center;
-  text-indent: 20px;
+  text-indent: 28px;
+  color: red;
+}
+.selected .textLinks2 {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  text-indent: 28px;
+  margin: 0 auto;
+  color: red;
+}
+.selected .textLinks3 {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin-right: 30px;
+  text-indent: 28px;
+  color: red;
+}
+.selected .textLinks4 {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  text-indent: 28px;
+  margin-left: 10px;
+  color: red;
+}
+
+.changeColor:hover {
+  color: red;
+}
+
+.textLinks3:hover {
   color: red;
 }
 

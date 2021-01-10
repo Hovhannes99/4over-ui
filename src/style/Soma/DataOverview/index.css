@@ -1,5 +1,5 @@
 .Graphic {
-  width: 152px;
+  width: 200px;
   height: 25px;
   font-size: 20px;
   font-family: sans-serif;
@@ -10,9 +10,8 @@
 
 .GraphicsTitles {
   width: 95%;
-  display: inline-block;
-  align-content: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   float: left;
   margin-top: 2%;
   margin-left: 2%;
@@ -21,13 +20,10 @@
 }
 
 .forms {
-  width: 48%;
+  width: 105%;
   border: 1px;
   border-color: #C8C8C8;
   padding-top: 5px;
-  float: left;
-  margin-right: 1%;
-  margin-bottom: 1%;
 }
 
 .results {
@@ -48,6 +44,35 @@
   width: 95%;
   padding-bottom: 15%;
   background-color: white;
+}
+
+.noData {
+  width: 200%;
+  height: 560px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newData {
+  width: 30%;
+  height: 301px;
+  background-color: white;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  align-content: space-between;
+}
+
+.iconEqvalizer {
+  font-size: 50px;
+  background: none;
+  color: #9F9F9F;
+}
+
+.textNoData {
+  text-align: center;
 }
 
 /*# sourceMappingURL=index.css.map */

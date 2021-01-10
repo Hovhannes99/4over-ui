@@ -1,18 +1,28 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Lato";
 }
 
 .header {
+  position: fixed;
   width: 100%;
   height: 70px;
   background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px;
   border-style: solid;
   border-color: #EBEDF8;
+  z-index: 1;
+}
+
+.parts {
+  position: relative;
+  width: 1px;
+  height: 10px;
+  right: 10%;
+  background: none;
 }
 
 .searchInput {
@@ -69,6 +79,10 @@
   color: #C8C8C8;
 }
 
+.iconSearch:hover {
+  cursor: pointer;
+}
+
 .bellIcon {
   width: 28px;
   height: 26px;
@@ -76,10 +90,19 @@
   color: #999999;
 }
 
+.bellIcon:hover {
+  cursor: pointer;
+  color: black;
+}
+
 .optionIcon {
-  width: 20px;
   height: 25px;
   color: #999999;
+}
+
+.optionIcon:hover {
+  cursor: pointer;
+  color: black;
 }
 
 .photo {
@@ -89,6 +112,87 @@
   border-style: solid;
   border-color: red;
   border-radius: 50%;
+}
+
+.photo:hover {
+  cursor: pointer;
+}
+
+.notices {
+  position: relative;
+  width: 364px;
+  height: 168px;
+  display: grid;
+  align-items: end;
+  justify-items: center;
+  background-color: white;
+  top: 42px;
+  border: solid 1px;
+  border-radius: 4px;
+  border-color: #DCE0E6;
+  box-sizing: border-box;
+}
+
+.noticesText {
+  width: 100%;
+  height: 35px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-bottom: solid 1px;
+  border-color: #DCE0E6;
+}
+
+.noticesText:hover {
+  background-color: #F5F6F8;
+  cursor: pointer;
+}
+
+.noticesText:after {
+  position: absolute;
+  width: 5%;
+  height: 11.5%;
+  background-color: white;
+  border-top: 2px solid #DCE0E6;
+  border-left: 2px solid #DCE0E6;
+  top: -7%;
+  left: 30%;
+  margin-left: 50%;
+  transform: rotate(45deg);
+  content: "";
+}
+
+.logOutPart {
+  position: relative;
+  width: 221px;
+  height: 100px;
+  margin-left: 225px;
+  margin-top: 43px;
+  display: grid;
+  align-items: end;
+  background-color: white;
+  border: solid 1px;
+  border-radius: 4px;
+  border-color: #DCE0E6;
+  box-sizing: border-box;
+}
+
+.logOutPart:after {
+  position: absolute;
+  width: 5.5%;
+  height: 11%;
+  background-color: white;
+  border-top: 2px solid #DCE0E6;
+  border-left: 2px solid #DCE0E6;
+  top: -7%;
+  left: 30%;
+  margin-left: 50%;
+  transform: rotate(45deg);
+  content: "";
+}
+
+.textOption {
+  margin-left: 5%;
 }
 
 /*# sourceMappingURL=design.css.map */

@@ -1,6 +1,6 @@
 import React from "react"
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import "../../../style/Title/MyCompaings/index.sass"
+import "../../../style/Soma/MyCompaings/index.sass"
 import ListsCompaings from "./ListsCompaings";
 
 function MyCampaings() {
@@ -14,14 +14,14 @@ function MyCampaings() {
                         <option>pp</option>
                     </select>
                     <div className="lists">
-                        <div className="miniHead">
-                            <p className="types"><p id="name">NAME</p> <p id="arrow"><ExpandMoreIcon/></p></p>
-                            <p className="types"><p id="name2">TYPE</p> <p id="arrow"><ExpandMoreIcon/></p></p>
-                            <p className="types"><p id="name2">GENDER </p><p id="arrow"><ExpandMoreIcon/></p></p>
-                            <p className="types"><p id="name">AGE RENG</p> <ExpandMoreIcon/></p>
-                            <p className="types"><p id="name">LIKED</p><p id="arrow"><ExpandMoreIcon/></p></p>
-                            <p className="types"><p id="name">PASS</p><p id="arrow"><ExpandMoreIcon/></p></p>
-                            <p className="types"><p id="name">START DATE</p><ExpandMoreIcon/></p>
+                          <div className="miniHead">
+                             <p className="types"><p>NAME</p> <p><ExpandMoreIcon/></p></p>
+                             <p className="types"><p>TYPE</p><p><ExpandMoreIcon/></p></p>
+                             <p className="types"><p>GENDER</p><p ><ExpandMoreIcon/></p></p>
+                             <p className="types"><p>AGE RENG</p> <p><ExpandMoreIcon/></p></p>
+                             <p className="types"><p>LIKED</p><p><ExpandMoreIcon/></p></p>
+                             <p className="types"><p>PASS</p><p><ExpandMoreIcon/></p></p>
+                             <p className="types"><p>START DATE</p><ExpandMoreIcon/></p>
                         </div>
                         <ListsCompaings/>
                     </div>

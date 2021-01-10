@@ -1,11 +1,13 @@
 import React from "react"
 import Graphic from "./Graphic";
+import ShoesCollectionPage from "../../ShoesCollectionPage";
 
 
 function DataOverview() {
     return (
         <div>
-            <Graphic/>
+            <ShoesCollectionPage/>
+            {/*<Graphic/>*/}
         </div>
     )
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../../../style/Title/DataOverview/index.sass"
+import "../../../../../style/Soma/DataOverview/index.sass"
 import Ratings from "../../../../../Graphics/Ratings";
 
 
