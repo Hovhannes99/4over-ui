@@ -89,14 +89,14 @@
 
 .stopAndEditPart {
   position: relative;
-  width: 11%;
+  width: 13%;
   height: 50px;
   background-color: white;
   border: solid 1px;
   border-color: #9F9F9F;
   border-radius: 4px;
   margin-top: -1%;
-  left: 87.5%;
+  left: 87%;
 }
 
 .stopPage {

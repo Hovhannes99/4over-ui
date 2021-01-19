@@ -3,6 +3,7 @@ import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 import CreateIcon from '@material-ui/icons/Create'
 import ErrorIcon from '@material-ui/icons/Error';
+import { useClickAway } from "use-click-away"
 
 
 function ListsCompaings() {
@@ -10,6 +11,11 @@ function ListsCompaings() {
     const [open, setOpen] = useState(false)
     const [warning, setWarning] = useState(false)
     const arr = [3, 1, 1, 1,1,1,1,111,1,1,1,1,1,1,11]
+    const clickRef = React.useRef("")
+
+    useClickAway(clickRef, () => {
+        setOpen(false);
+    })
 
     function openStopAndEditPart(uniqueKey) {
         if (open) {
@@ -32,8 +38,8 @@ function ListsCompaings() {
         <>
             {arr.map((i, key) =>
 
-                   <div className={"infoAndEditPart"}>
-                    <div className="InfoCompaings">
+                   <div className={"infoAndEditPart"} >
+                    <div className="InfoCompaings" >
                         <p className="types2"><p id="officeName">Evning Colection </p></p>
                         <p className="types2"><p id="typeGenderAge">Singel Offer</p></p>
                         <p className="types2"><p id="typeGenderAge">Female</p></p>
@@ -45,7 +51,7 @@ function ListsCompaings() {
                          onClick={() => openStopAndEditPart(key + 1)}/><NavigateNextIcon/>
                         </p>
                     </div>
-                    {(open === key + 1) ? <div className={"stopAndEditPart"}>
+                    {(open === key + 1) ? <div className={"stopAndEditPart"} ref={clickRef}>
                         <div className="editStop">Edit Campaing<p><CreateIcon className="createIcon"/></p></div>
                         <div className="editStop" onClick={openWarningPage}>Stop Campaing <p className="createIcon">
                             <ErrorIcon/></p></div>

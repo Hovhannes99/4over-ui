@@ -7,7 +7,7 @@ function AgeGraphic(){
     return(
         <>
         <div className="results">
-            <h4>Age Range</h4>
+            <p>Age Range</p>
             <select className="selectResults">
                 <option>Dail</option>
             </select>

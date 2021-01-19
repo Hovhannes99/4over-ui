@@ -7,7 +7,7 @@ function GeneralResults() {
     return (
         <>
             <div className="results">
-                <h4>General Results</h4>
+                <p>General Results</p>
                 <select className="selectResults">
                     <option>Dail</option>
                 </select>

@@ -8,12 +8,19 @@ import SpeedIcon from '@material-ui/icons/Speed';
 import EqualizerIcon from '@material-ui/icons/Equalizer';
 import PieChartIcon from '@material-ui/icons/PieChart';
 import BusinessIcon from '@material-ui/icons/Business';
-import {BrowserRouter as Router, NavLink, Route, Switch} from "react-router-dom"
+import {BrowserRouter as Router, NavLink, Route, Switch, useHistory }from "react-router-dom"
 import {MyContext} from "../../App";
 import AddCampaign from "../AddCampaign";
 
 function Nav() {
     const {setAddCampaing, addCampaing} = useContext(MyContext)
+
+
+    function openAddCampaignPage(){
+
+         setAddCampaing(true)
+    }
+
 
     return (
         <Router>
@@ -21,7 +28,7 @@ function Nav() {
                 <div className="categories">
                     <div className="menu">
                         <div className="links">
-                            <NavLink activeClassName="selected" className="lineNone" to="/home">
+                            <NavLink activeClassName="selected" className="lineNone"  to="/home">
                                 <p className="textLinks1">
                                     <p className="changeColor"><SpeedIcon/>
                                         <p>Dashboard</p></p>
@@ -30,7 +37,7 @@ function Nav() {
                             </NavLink>
                         </div>
                         <div  className="links">
-                            <NavLink activeClassName="selected" className="lineNone" to="/modalnsights">
+                            <NavLink activeClassName="selected" className="lineNone" to="/modalSights">
                                 <p className="textLinks2">
                                     <p className="changeColor"><EqualizerIcon/><p>Moda Insights</p></p>
                                 </p>
@@ -54,16 +61,19 @@ function Nav() {
                             </NavLink>
                         </div>
                     </div>
-                    <button className="addCampaing" onClick={()=> setAddCampaing(true)}>ADD CAMPAING</button>
+                    <button className="addCampaing" onClick={openAddCampaignPage}>ADD CAMPAING</button>
                 </div>
                 <div className="list">
+
                     <Switch>
                         <Route exact path="/home" component={DataOverview}/>
-                        <Route path="/modalnsights" component={ModaLnsigths}/>
+                        <Route  path="/modalSights" component={ModaLnsigths}/>
                         <Route path="/analytics" component={Analytics}/>
                         <Route path="/my-camaings" component={MyCampaings}/>
                     </Switch>
                     {addCampaing? <AddCampaign/>:""}
+
+
                 </div>
             </div>
 

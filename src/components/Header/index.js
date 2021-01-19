@@ -3,7 +3,7 @@ import "../../style/Head/design.css"
 import NotificationsIcon from '@material-ui/icons/Notifications'
 import SettingsIcon from '@material-ui/icons/Settings';
 import {MyContext} from "../../App";
-
+import { useClickAway } from "use-click-away"
 
 
 
@@ -11,6 +11,12 @@ function Header() {
      const [ballNotices, setBallNotices] = useState(false)
      const  [logOut, setLogOut] = useState(false)
      const {setLogin} = useContext(MyContext)
+     const clickRef = React.useRef("")
+
+     useClickAway(clickRef, () => {
+         setBallNotices(false);
+         setLogOut(false)
+    })
 
     function openNotices(){
          if(!ballNotices){
@@ -36,7 +42,7 @@ function Header() {
     return (
         <>
 
-        <header className="header">
+        <header className="header" ref={clickRef} >
             <div className="logo">MÖDAIC</div>
             <div className="searchAndOption">
                 <div className={"parts"}>

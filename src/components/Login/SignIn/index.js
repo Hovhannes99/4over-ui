@@ -26,12 +26,12 @@ function openForgotPasswordPage(){
         <div className="singIn">
             <div className="logoSignIn">MÖDAIC</div>
             <div className="emailAndPassword">
-                <h3>Sign In</h3>
-                <p className="nameInput">Email Address</p>
+                <p style={{fontSize: "21px"}}>Sign In</p>
+                <p className="nameInput" style={{fontSize:"14px"}}>Email Address</p>
                 <input className="emailAddressInput"/>
-                <p className="nameInput2">Password</p>
+                <p className="nameInput2" style={{fontSize:"14px"}}>Password</p>
                 <input className="passwordInput" type={"password"}/>
-                <p className="nameInput3" onClick={openForgotPasswordPage}>Forgot Password ?</p>
+                <p className="nameInput3" onClick={openForgotPasswordPage} style={{fontSize:"14px"}}>Forgot Password ?</p>
             </div>
             <button className="signInButton" onClick={openPage} >SIGN IN</button>
             <div id="question">Don't have an account ? <span className="colorStyle" onClick={openRegisterPage}>Sign Up</span></div>

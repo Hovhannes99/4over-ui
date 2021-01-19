@@ -19,10 +19,10 @@ function NewPassword(){
         <div className="singIn">
             <div className="logoSignIn">MÖDAIC</div>
             <div className="ResetPassword">
-                <h3>Reset Password</h3>
-                <p className="nameInput2">New Password</p>
+                <p style={{fontSize: "21px"}}>Reset Password</p>
+                <p className="nameInput2" style={{fontSize:"14px"}}>New Password</p>
                 <input className="passwordInput" type={"password"}/>
-                <p className="nameInput3">Repeat Password</p>
+                <p className="nameInput3" style={{fontSize:"14px"}}>Repeat Password</p>
                 <input className="passwordInput" type={"password"}/>
             </div>
             <button className="resetButton" onClick={openCampaingsPage} >RESET</button>

@@ -2,11 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed05dfc9-f152-4dfc-9f57-07bad93da0d1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AddCampaign/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddCampaign/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Analytics/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Analytics/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/DataOverview/Graphic/AgeGraphic/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/DataOverview/Graphic/AgeGraphic/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/DataOverview/Graphic/GeneralResults/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/DataOverview/Graphic/GeneralResults/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/DataOverview/Graphic/GraphCities/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/DataOverview/Graphic/GraphCities/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/DataOverview/Graphic/RatingsCampings/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/DataOverview/Graphic/RatingsCampings/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/DataOverview/Graphic/Salari/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/DataOverview/Graphic/Salari/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/DataOverview/Graphic/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/DataOverview/Graphic/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/DataOverview/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/DataOverview/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/MyCampaings/ListsCompaings/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/MyCampaings/ListsCompaings/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/SignIn/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/SignIn/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Nav/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NoData/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NoData/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProfilePage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProfilePage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Register/SignUp/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Register/SignUp/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ResetPassword/EmailAddres/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ResetPassword/EmailAddres/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ResetPassword/NewPassword/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ResetPassword/NewPassword/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ShoesCollectionPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ShoesCollectionPage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/AddCampaign/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/AddCampaign/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/AddCampaign/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/AddCampaign/index.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/Head/design.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/Head/design.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/Head/design.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/Head/design.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/Head/design.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/Head/design.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/ProfileStyle/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/ProfileStyle/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/ProfileStyle/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/ProfileStyle/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/ProfileStyle/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/ProfileStyle/index.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/Soma/DataOverview/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/Soma/DataOverview/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/Soma/DataOverview/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/Soma/DataOverview/index.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/Soma/MyCompaings/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/Soma/MyCompaings/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/Soma/MyCompaings/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/Soma/MyCompaings/index.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +75,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -62,7 +100,12 @@
       <workItem from="1607846391835" duration="5757000" />
       <workItem from="1607870331065" duration="1701000" />
       <workItem from="1607874856010" duration="578000" />
-      <workItem from="1610302577950" duration="694000" />
+      <workItem from="1610302577950" duration="1488000" />
+      <workItem from="1610381263457" duration="22147000" />
+      <workItem from="1610469272035" duration="7968000" />
+      <workItem from="1610559420093" duration="14052000" />
+      <workItem from="1610814123680" duration="1864000" />
+      <workItem from="1611076720147" duration="2280000" />
     </task>
     <servers />
   </component>

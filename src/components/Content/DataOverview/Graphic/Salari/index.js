@@ -8,7 +8,7 @@ function Salari(){
     return(
         <>
             <div className="results">
-                <h4>By Anual Salary</h4>
+                <p>By Anual Salary</p>
                 <select className="selectResults">
                     <option>Dail</option>
                 </select>

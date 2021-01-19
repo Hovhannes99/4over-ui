@@ -3,18 +3,23 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 import "../../style/Soma/ShoesStyle/index.sass"
 
 
-function ShoesCollectionPage() {
-    const [likeAndPass, setLikeAndPass] = useState(false)
-    const arr = [3, 1, 1, 1,1,1,1,11,1,1,1,1,1,1,11]
+function ShoesCollectionPage(){
+    const [arr, setArr] = useState([{id: 1, name:"Cecilia Welch", email:"heather_keeling@gottlieb.ca", age:"18", gender:"Female", city:"New Year", status: true},
+                                             {id: 2, name:"Sara Glover", email:"floyd_brakus@lindgren.com", age:"20", gender:"Female", city:"California", status: false},
+                                             {id: 3, name:"Cecilia Welch", email:"heather_keeling@gottlieb.ca", age:"18", gender:"Female", city:"New Year", status: false}])
 
-    function likeOurPass(){
-        if (likeAndPass){
-            setLikeAndPass(false)
-        }else {
-            setLikeAndPass(true)
-        }
-    }
+   function likeOurPass(id){
+      setArr(arr.map((i)=>{
+          if (i.id === id) {
+              return {
+                  ...i,
+                  status: !i.status
+              }
+          }
+          return i
 
+       }))
+   }
     return (
         <>
             <div className={"Graphic"}><p>Shoes May Collection</p></div>
@@ -31,17 +36,16 @@ function ShoesCollectionPage() {
                             <div className={"styleStatus"}><p>STATUS</p><p><ExpandMoreIcon/></p></div>
                         </div>
                         <div className={"infoCollection"}>
-                            {arr.map((i,key)=>
-                                <div className={"infoList"}>
-                                   <p className={"nameStyle"}>Cecilia Welch</p>
-                                   <p className={"emailStyle"}>heather_keeling@gottlieb.ca</p>
-                                   <p className={"ageStyle"}>18</p>
-                                   <p className={"ageStyle"}>Female</p>
-                                   <p className={"emailStyle"}>New York</p>
-                                    {likeAndPass?<button className={"buttonLike"} onClick={likeOurPass}>Like</button>
-                                    :<button className={"buttonPass"} onClick={likeOurPass}>Pass</button>}
-
-                                 </div>)}
+                            {arr.map((i)=>
+                                <div className={"infoList"} key={i.id}>
+                                   <p className={"nameStyle"}>{i.name}</p>
+                                   <p className={"emailStyle"}>{i.email}</p>
+                                   <p className={"ageStyle"}>{i.age}</p>
+                                   <p className={"ageStyle"}>{i.gender}</p>
+                                   <p className={"emailStyle"}>{i.city}</p>
+                                    {i.status?<button className={"buttonPass"} onClick={()=>likeOurPass(i.id)}>Pass</button>:
+                                        <button className={"buttonLike"} onClick={()=>likeOurPass(i.id)}>Like</button> }
+                                </div>)}
                         </div>
                     </div>
                 </div>

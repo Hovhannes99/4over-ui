@@ -10,7 +10,7 @@ function CitiesComponet (){
     return(
         <>
             <div className="results">
-                <h4>Cities</h4>
+                <p>Cities</p>
                 <select className="selectResults">
                     <option>Dail</option>
                 </select>

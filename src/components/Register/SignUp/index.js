@@ -19,12 +19,12 @@ function SignUp(){
         <div className="singIn">
             <div className="logoSignIn">MÖDAIC</div>
             <div className="emailAndPassword">
-                <h3>Sign Up</h3>
-                <p className="nameInput">Email Address</p>
+                <p style={{fontSize: "21px"}}>Sign Up</p>
+                <p className="nameInput" style={{fontSize:"14px"}}>Email Address</p>
                 <input className="emailAddressInput"/>
-                <p className="nameInput2">Password</p>
+                <p className="nameInput2" style={{fontSize:"14px"}}>Password</p>
                 <input className="passwordInput" type={"password"}/>
-                <p className="nameInput3">Repeat Password</p>
+                <p className="nameInput3" style={{fontSize:"14px" , marginTop:"3%"}}>Repeat Password</p>
                 <input className="passwordInput" type={"password"}/>
             </div>
             <button className="signUpButton" >SIGN UP</button>

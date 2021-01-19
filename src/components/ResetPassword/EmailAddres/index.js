@@ -20,12 +20,12 @@ function EmailAddres(){
         <div className="singIn">
             <div className="logoSignIn">MÖDAIC</div>
             <div className="ResetPassword">
-                <h3>Reset Password</h3>
-                <p className="nameInput">Email Address</p>
+                <p style={{fontSize: "21px"}}>Reset Password</p>
+                <p className="nameInput" style={{fontSize:"14px"}}>Email Address</p>
                 <input className="emailAddressInput"/>
             </div>
             <button className="sendButton" onClick={openResetPasswordPage}>SEND</button>
-            <h5 style={{color:"#989898"}}>Didn't receive ? You can send again in <span style={{color:"black"}}>01:59</span></h5>
+            <p style={{color:"#989898", fontSize: "14px"}}>Didn't receive ? You can send again in <span style={{color:"black"}}>01:59</span></p>
             <div id="goBack">Go back to <span className="colorStyle" onClick={openSignInPage}>Sign In</span>  </div>
         </div>
     )

@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.fontStyle {
+  font-family: "Roboto Light", sans-serif;
+}
+
 .header {
   position: fixed;
   width: 100%;

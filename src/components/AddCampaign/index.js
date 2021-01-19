@@ -19,16 +19,16 @@ function AddCampaign() {
                 <div className={"newCampaingWay"}>
                     <div className={"campaingAdd"}>
                         <div className={"CampaignName"}>
-                            <h2>Add Campaign</h2>
+                            <p style={{fontSize:"21px"}}>Add Campaign</p>
                             <div>
-                                <h5 style={{color: "#9F9F9F"}}>Camaign Name</h5>
+                                <p style={{color: "#9F9F9F", fontSize:"14px"}}>Camaign Name</p>
                                 <input className={"campaignNameInput"}/>
                             </div>
                         </div>
                         <div className={"styleCampaign"}>
                             <div className={"singleOffer"}>
-                                <h3>Chose Test Type</h3>
-                                <h6 style={{marginTop: "3%", color: "#D3D4D4"}}>SINGLE OFFER</h6>
+                                <p style={{fontSize:"15px"}}>Chose Test Type</p>
+                                <p style={{marginTop: "3%", color: "#D3D4D4", fontSize:"14px"}}>SINGLE OFFER</p>
                                 <div className={"fotoSingle"}> </div>
                                 <div>
                                     <label>
@@ -38,7 +38,7 @@ function AddCampaign() {
                                 </div>
                             </div>
                             <div className={"singleOffer"}>
-                                <h6 style={{marginTop: "13%", color: "#D3D4D4"}}>SINGLE OFFER</h6>
+                                <p style={{marginTop: "13%", color: "#D3D4D4",fontSize:"14px"}}>MULTIPLE OFFER</p>
                                 <div className={"fotoMultiple"}> </div>
                                 <label>
                                     <input type={"radio"} name={"offer"}/>
@@ -48,15 +48,15 @@ function AddCampaign() {
                         </div>
                     </div>
                     <div className={"detailsWay"}>
-                        <h4 style={{marginTop: "12.5%"}}>Detalis</h4>
-                        <h5 style={{marginTop: "6%", color: "#9fa9ba"}}>Brand</h5>
+                        <p style={{marginTop: "12.5%",fontSize:"15px"}}>Detalis</p>
+                        <p style={{marginTop: "6%", color: "#9fa9ba", fontSize:"14px"}}>Brand</p>
                         <input className={"campaignNameInput"}/>
-                        <h5 style={{marginTop: "4%", color: "#9FA9BA"}}>Price</h5>
+                        <p style={{marginTop: "4%", color: "#9FA9BA"}}>Price</p>
                         <input className={"campaignNameInput"}/>
-                        <h5 style={{marginTop: "4%", color: "#9FA9BA"}}>Details</h5>
+                        <p style={{marginTop: "4%", color: "#9FA9BA", fontSize: "14px"}}>Details</p>
                         <textarea className={"campaignDetailsText"}/>
                         <div className={"ageRange"}>
-                            <h5>AGE RANGE</h5><h5>{val[0]}-{val[1]}</h5>
+                            <p style={{fontSize:"14px"}}>AGE RANGE</p><p style={{fontSize:"14px"}}>{val[0]}-{val[1]}</p>
                         </div>
                         <div className={"slider"}>
                             <Slider id={"Slider"} value={val} onChange={updateRange}  />
